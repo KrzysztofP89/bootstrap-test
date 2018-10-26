@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> TYTUL </title>
+	<meta name="description" content="KICKSTARTER 2">
+	<meta http-equiv="X-Ua-Compatible" content"ID=egde">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	  <img src="img\logo.png" class="img-responsive" alt="Cinque Terre" width="130" height="200"> 
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      
+      <li><a href="#">CATEGORIES</a></li>
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">INFO <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">COKOLWIEK</a></li>
+        </ul>
+      </li>
+    </ul>
+	
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="sing_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	   </ul>
+  </div>
+</nav>
+<!-- REGISTER -->
+  <div class="container">
+
+        <div class="row">
+
+            <div class="col-xl-8 offset-xl-2">
+
+                <h1>Contact form Tutorial from
+                    <a href="http://bootstrapious.com">Bootstrapious.com</a>
+                </h1>
+
+                <p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background.
+                    At this part, we will add Google's ReCaptcha too.</p>
+
+
+                <form id="contact-form" method="post" action="contact.php" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="form_name">Firstname *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required"
+                                        data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required"
+                                        data-error="Lastname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required"
+                                        data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="form_phone">Phone</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+
+                        <p class="text-muted">
+                            <strong>*</strong> These fields are required. Contact form template by
+                            <a href="https://bootstrapious.com/p/bootstrap-recaptcha" target="_blank">Bootstrapious</a>.
+                        </p>
+
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- /.8 -->
+
+        </div>
+        <!-- /.row-->
+
+    </div>
+<!-- FOOTER -->
+
+<div class="col-sm-3">
+	<div class="container">
+		<h1>$$$$$$$$$$$$$$</h1>
+			<p>#############</p> 
+		<p>$$$$$$$$$$$$</p>           
+	</div>
+</div>
+
+<div class="col-sm-3">
+	<div class="container-fluid">
+		<h1>$$$$$$$$$$$$$$</h1>
+			<p>#############</p> 
+		<p>$$$$$$$$$$$$</p>           
+	</div>
+</div>
+
+<div class="col-sm-3">
+	<div class="container-fluid"">
+		<h1>$$$$$$$$$$$$$$</h1>
+			<p>#############</p> 
+		<p>$$$$$$$$$$$$</p>           
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="validator.js"></script>
+    <script src="contact.js"></script>
+
+
+</body>
+</html>
